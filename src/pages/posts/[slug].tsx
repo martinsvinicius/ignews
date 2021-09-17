@@ -11,7 +11,7 @@ interface PostProps {
   post: {
     slug: string;
     title: string;
-    content: undefined;
+    content: string;
     updatedAt: string;
   }
 }
