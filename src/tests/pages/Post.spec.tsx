@@ -13,7 +13,6 @@ type Post = {
 };
 
 jest.mock('next-auth/client');
-jest.mock('../../services/stripe');
 jest.mock('../../services/prismic');
 
 const post: Post = {
